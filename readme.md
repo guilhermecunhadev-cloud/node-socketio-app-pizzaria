@@ -20,7 +20,7 @@ Projeto desenvolvido para treinar o uso de WebSockets com Socket.IO em um servid
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git -->
+   git clone https://github.com/guilhermecunhdev-cloud/node-socketio-app-pizzaria.git -->
 
 ## 🗂️ Estrutura de Pastas
 
