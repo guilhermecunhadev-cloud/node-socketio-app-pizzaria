@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Iniciando o Socket  -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/index.js" defer></script>
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <nav id="nav-center">Pizzaria</nav>
+    <main>
+        <form action="" id="form">
+            <label for="pedido">Escolha o sabor de sua pizza</label>
+            <select name="sabor" id="select-pizza">
+                <option value="default" selected>Escolha um sabor...</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="portuguesa">Portuguesa</option>
+                <option value="bacon">Bacon</option>
+                <option value="a moda">A moda</option>
+                <option value="brocolis">Brócolis</option>
+                <option value="mussarela">Mussarela</option>
+                <option value="marguerita">Marguerita</option>
+                <option value="quatro-queijos">Quatro queijos</option>
+                <option value="frango-catupiry">Frango c/catupiry</option>
+            </select>
+            <button id="button" type="submit">Enviar Pedido</button>
+            <!-- div que receberá o resultado vindo do back-end  -->
+            <div id="result"></div>
+        </form>
+    </main>
+</body>
+
+</html>
